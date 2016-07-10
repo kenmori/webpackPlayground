@@ -48,15 +48,14 @@
 	//myscriptはchild.jsに依存している
 	child();
 
-
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = function(){
-	  document.write("children");
-	}
-
+	module.exports = function () {
+	  const str = '!!';
+	  console.log(`children${ str }`);
+	};
 
 /***/ }
 /******/ ]);
