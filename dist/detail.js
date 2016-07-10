@@ -45,7 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var sub = __webpack_require__(1);
-	sub('app');
+	sub('detail');
 
 
 /***/ },
