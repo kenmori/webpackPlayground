@@ -2,7 +2,7 @@
 
 module.exports = {
   context: process.cwd(),//workingディレクトリのentryをコンパイルしてdist/[name].jsをつくる//default。この1行なくてもいい
-  entry:'./js/myscript',
+  entry:'./js/app',
   output: {
     path: './dist/',
     filename: 'bundle.js'
