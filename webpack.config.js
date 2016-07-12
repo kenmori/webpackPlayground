@@ -1,11 +1,10 @@
+var webpack = require('webpack');
+
 module.exports = {
-  entry: {
-    app: './app.js',
-    index: './index.js',
-    detail: './detail.js'
-  },
+  context: process.cwd(),//workingディレクトリのentryをコンパイルしてdist/[name].jsをつくる//default
+  entry:'./myscript',
   output: {
     path: __dirname + '/dist',
-    filename: '[name].js'
+    filename: 'bundle.js'
   }
 }
